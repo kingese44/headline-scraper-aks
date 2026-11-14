@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: headlines
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: headlines
+  template:
+    metadata:
+      labels:
+        app: headlines
+    spec:
+      containers:
+        - name: headlines
+          image: kings44/headlines:1
+          ports:
+            - containerPort: 8080
