@@ -2,7 +2,7 @@
 
 A small Python app that scrapes headlines from a list of news sites and shows them on a web page. It runs on Azure Kubernetes Service (AKS), which is created with Terraform and exposed through a load balancer and Traefik.
 
-I built this to learn Python, Docker, Terraform and Kubernetes together, using a time-limited Azure training lab that resets every 4 hours.
+I built with Python, Docker, Terraform and Kubernetes together. 
 
 ## Architecture
 
